@@ -60,4 +60,4 @@ endif()
 
 
 mark_as_advanced(SVT_HEVC_LIBRARY SVT_HEVC_INCLUDE_DIR SVT_HEVC_LIBRARY_DIR)
-find_package_handle_standard_args(SVTHEVC REQUIRED_VARS SVT_HEVC_LIBRARY SVT_HEVC_INCLUDE_DIR)
+find_package_handle_standard_args(svthevc REQUIRED_VARS SVT_HEVC_LIBRARY SVT_HEVC_INCLUDE_DIR)

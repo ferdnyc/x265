@@ -1,7 +1,7 @@
 include(FindPackageHandleStandardArgs)
 
 # Simple path search with YASM_ROOT environment variable override
-find_program(NASM_EXECUTABLE 
+find_program(NASM_EXECUTABLE
  NAMES nasm nasm-2.13.0-win32 nasm-2.13.0-win64 nasm nasm-2.13.0-win32 nasm-2.13.0-win64
  HINTS $ENV{NASM_ROOT} ${NASM_ROOT}
  PATH_SUFFIXES bin
@@ -20,6 +20,6 @@ if(NASM_EXECUTABLE)
 endif()
 
 # Provide standardized success/failure messages
-find_package_handle_standard_args(nasm
+find_package_handle_standard_args(Nasm
     REQUIRED_VARS NASM_EXECUTABLE
     VERSION_VAR NASM_VERSION_STRING)

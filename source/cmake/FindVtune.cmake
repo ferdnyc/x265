@@ -22,4 +22,4 @@ set (VTUNE_INCLUDE_DIR ${VTUNE_DIR}/include)
 set (VTUNE_LIBRARY_DIR ${VTUNE_DIR}/lib64)
 
 mark_as_advanced(VTUNE_DIR)
-find_package_handle_standard_args(VTUNE REQUIRED_VARS VTUNE_DIR VTUNE_INCLUDE_DIR VTUNE_LIBRARY_DIR)
+find_package_handle_standard_args(Vtune REQUIRED_VARS VTUNE_DIR VTUNE_INCLUDE_DIR VTUNE_LIBRARY_DIR)
